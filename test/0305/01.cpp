@@ -1,17 +1,32 @@
 #include <iostream>
 #include <vector>
-#include <utility>
+#include <string>
 using namespace std;
 
-void printString();
+int main() {
+    vector<string> words(5);
 
-int main () {
-    vector<vector<int> > S(15, vector<int>(15));
-    string str;
+    for (int i = 0; i < 5; i++) {
+        cin >> words[i];
+    }
 
-    
-}
+    string result;
+    int max_length = 0;
 
-void printString() {
+    for (const string& word : words) {
+        if (word.length() > max_length) {
+            max_length = word.length();
+        }
+    }
 
+    for (int col = 0; col < max_length; col++) {
+        for (int row = 0; row < 5; row++) {
+            if (col < words[row].length()) {
+                result += words[row][col];
+            }
+        }
+    }
+
+    cout << result << endl;
+    return 0;
 }
