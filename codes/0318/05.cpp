@@ -16,11 +16,11 @@ int main () {
 
     matrix_t board(n+1, vector<int>(n+1));
 
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < n; j++)
             board[i][j] = 0;
-        }
-    }
+
+    
     int srow = 0, scol = 0;
 
     tromino(n, board, srow, scol, row, col);
