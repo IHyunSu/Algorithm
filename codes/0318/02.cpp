@@ -11,7 +11,7 @@ void merge2(int low, int mid, int high, int& cnt, vector<int>& S);
 int main () {
     int n, cnt = 0;
     cin >> n;
-    vector<int> S(n + 1);
+    vector<int> S(n + 1); // init
     arrInput(S, n);
 
     mergesort2(1, n, cnt, S);
