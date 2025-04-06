@@ -4,7 +4,7 @@ using namespace std;
 
 typedef vector<vector<int> > Matrix;
 
-const int INF = 999;
+const int INF = 999; // init
 
 void floyd2(int n, Matrix& W, Matrix& D, Matrix& P) {
     for (int i = 1; i <= n; i++) {
