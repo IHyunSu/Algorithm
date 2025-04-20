@@ -7,6 +7,11 @@
         "locale": "cpp",
         "variant": "cpp",
         "memory": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "queue": "cpp",
+        "stack": "cpp",
+        "__locale": "cpp",
+        "string": "cpp",
+        "string_view": "cpp"
     }
 }

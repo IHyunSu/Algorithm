@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "intelliSenseMode": "macos-clang-arm64",
+            "cStandard": "c23",
+            "cppStandard": "c++23",
+            "compilerArgs": ["-std=c++23"]
+        }
+    ],
+    "version": 4
+}
