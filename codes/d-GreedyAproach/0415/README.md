@@ -1,4 +1,4 @@
-# Greedy Aproach
+# Greedy Aproach (1)
 
 ## 목차
 

@@ -1,5 +1,3 @@
-// 2024004501 Lee Hyun Su
-// Dynamic Programming (2)
 // Binomial Coefficient: Memoization
 
 #include <iostream>

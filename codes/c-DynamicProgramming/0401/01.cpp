@@ -1,5 +1,3 @@
-// 2024004501 Lee Hyun Su , Dynamic Programming (1)
-
 // Binomial Coefficient: Tabulation
 
 #include <iostream>
