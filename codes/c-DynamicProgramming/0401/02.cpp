@@ -1,4 +1,7 @@
 // Binomial Coefficient: Memoization
+/* input case
+2000 500
+*/
 
 #include <iostream>
 #include <vector>

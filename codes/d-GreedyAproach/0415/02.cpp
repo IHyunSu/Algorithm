@@ -1,3 +1,15 @@
+// MST: Kruskal's Algorithm
+/* input case
+5 7         <- size n, edge count k
+1 2 1       <- vertex u,v and weight w
+1 3 3
+2 3 7
+2 4 6
+3 4 4
+3 5 2
+4 5 5
+*/
+
 #include <algorithm>
 #include <iostream>
 #include <string>

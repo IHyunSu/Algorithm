@@ -1,4 +1,7 @@
 // Binomial Coefficient: Tabulation
+/* input case
+10000 5000
+*/
 
 #include <iostream>
 #include <vector>

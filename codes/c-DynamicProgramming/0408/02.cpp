@@ -1,4 +1,9 @@
 // Optimal Binary Search Tree
+/* input case
+4
+10 20 30 40
+3 3 1 1
+*/
 
 #include <iostream>
 #include <vector>

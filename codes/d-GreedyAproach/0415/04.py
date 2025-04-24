@@ -14,4 +14,4 @@ for i in range(1, n + 1):
     s[i], f[i] = map(int, input().split())
     
 solution = selection(n, s, f)
-print(len(solution), solution)
+print(len(solution))
