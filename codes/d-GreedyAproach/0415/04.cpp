@@ -14,8 +14,8 @@
 12 16
 */
 
-#include <algorithm>
 #include <iostream>
+#include <algorithm>
 #include <vector>
 using namespace std;
 
