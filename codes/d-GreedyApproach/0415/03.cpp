@@ -16,6 +16,8 @@
 5
 */
 
+// Greedy Approach (1) deadline Scheduler
+
 #include <iostream>
 #include <vector>
 #include <stack>
